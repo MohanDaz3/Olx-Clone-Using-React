@@ -26,7 +26,7 @@ function App() {
     <div>
       <Post>
 
-      <Router basename="/Olx-Clone-Using-React">
+      <Router>
         <Route exact path='/'>
       <Home />
         </Route>
