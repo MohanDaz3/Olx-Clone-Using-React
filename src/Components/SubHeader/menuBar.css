@@ -1,0 +1,37 @@
+ .bannerChildDiv .menuBar {
+    display: flex;
+    padding: 10px 16px 10px 16px;
+    
+  }
+  .subMenu{
+    margin-top: 20px;
+  }
+  
+ .bannerChildDiv{
+    width: 100%;
+    padding-top: 60px;
+    background-color: whitesmoke;
+    
+  }
+  
+   .bannerChildDiv .menuBar .categoryMenu span {
+    margin-right: 10px;
+    font-weight: bolder;
+    margin-left: 108px;
+  }
+  
+   .bannerChildDiv .menuBar .otherQuickOptions {
+  }
+   .bannerChildDiv .menuBar .otherQuickOptions span {
+    font-size: 0.9em;
+    padding: 9px;
+    font-weight: 500;
+  }
+  @media only screen and (max-width: 700px) {
+    .otherQuickOptions {
+      display: none;
+    }
+    .bannerChildDiv .banner {
+      position: relative;
+    }
+  }
